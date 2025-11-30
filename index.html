@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Plans Management</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-10 font-sans antialiased text-gray-900">
+
+    <div class="container mx-auto">
+        <h1 class="text-3xl font-bold mb-6 text-gray-800">Study Plans</h1>
+
+        <div class="bg-white shadow-md rounded-lg overflow-hidden">
+            <table class="min-w-full leading-normal">
+                <thead>
+                    <tr class="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
+                        <th class="py-3 px-4 text-left">ID</th>
+                        <th class="py-3 px-4 text-left">Plan Code</th>
+                        <th class="py-3 px-4 text-left">Name (EN)</th>
+                        <th class="py-3 px-4 text-left">Name (TH)</th>
+                    </tr>
+                </thead>
+                <tbody id="studyplan" class="text-gray-600 text-sm font-light">
+                    </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script type="module" src="./week12/table.js"></script>
+
+</body>
+</html>

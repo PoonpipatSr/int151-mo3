@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ระบบเพิ่มข้อมูลตามเวลา</title>
+</head>
+<body>
+
+    <h1>ระบบบันทึกข้อความ (จำกัดเวลา 08:00 - 18:00)</h1>
+    <hr>
+
+    <div>
+        <label>ข้อมูลที่ต้องการเพิ่ม:</label>
+        <input type="text" id="dataInput" placeholder="พิมพ์ข้อความที่นี่">
+    </div>
+    <br>
+    <div>
+        <label>กำหนดเวลา (ชั่วโมง:นาที):</label>
+        <input type="time" id="timeInput">
+    </div>
+    <br>
+    <button id="addBtn">เพิ่มข้อมูล</button>
+
+    <hr>
+
+    <h2>รายการที่บันทึก</h2>
+    <ul id="dataList">
+        </ul>
+
+    <script src="main.js"></script>
+</body>
+</html>

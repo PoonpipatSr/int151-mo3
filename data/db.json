@@ -1,0 +1,58 @@
+{
+  "study-plans": [
+    {
+      "id": "1",
+      "study_code": "FE",
+      "english_name": "Frontend Developer",
+      "thai_name": "นักพัฒนาฟรอนเอนด์"
+    },
+    {
+      "id": "2",
+      "study_code": "BE",
+      "english_name": "Backend Developer",
+      "thai_name": "นักพัฒนาแบ็กเอนด์"
+    },
+    {
+      "id": "3",
+      "study_code": "FS",
+      "english_name": "Full-Stack Developer",
+      "thai_name": "นักพัฒนาฟูลสแตก"
+    },
+    {
+      "id": "4",
+      "study_code": "AI",
+      "english_name": "AI Developer",
+      "thai_name": "นักพัฒนาปัญญาประดิษฐ์"
+    },
+    {
+      "id": "5",
+      "study_code": "DS",
+      "english_name": "Data Scientist",
+      "thai_name": "นักวิทยาการข้อมูล"
+    },
+    {
+      "id": "6",
+      "study_code": "DA",
+      "english_name": "Data Analyst",
+      "thai_name": "นักวิเคราะห์ข้อมูล"
+    },
+    {
+      "id": "7",
+      "study_code": "DE",
+      "english_name": "Data Engineer",
+      "thai_name": "วิศวกรข้อมูล"
+    },
+    {
+      "id": "8",
+      "study_code": "DB",
+      "english_name": "Database Administrator",
+      "thai_name": "ผู้ดูแลฐานข้อมูล"
+    },
+    {
+      "id": "9",
+      "study_code": "UX",
+      "english_name": "UX/UI Designer",
+      "thai_name": "นักออกแบบประสบการณ์ของผู้ใช้และส่วนต่อประสาน"
+    }
+  ]
+}

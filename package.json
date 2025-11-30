@@ -1,0 +1,30 @@
+{
+  "name": "self-prac-mo3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "backend": "json-server --watch ./data/db.json --port 5000",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PoonpipatSr/int151-mo3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PoonpipatSr/int151-mo3/issues"
+  },
+  "homepage": "https://github.com/PoonpipatSr/int151-mo3#readme",
+  "description": "",
+  "devDependencies": {
+    "vite": "^7.2.4"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
